@@ -1,9 +1,9 @@
-const chai = require('chai')                // **npm modules*
+const chai = require('chai')                // **npm modules**
 const supertest = require('supertest')
 
-const app = require('../app.js')            // **file modules
+const app = require('../app.js')            // **file modules**
 
-const should = chai.should()                  // **declaring variables*
+const should = chai.should()                  // **declaring variables**
 const api = supertest(app) // using super test to bring in an api for the test
 
 describe('Sending a POST to /api/add', () => {
